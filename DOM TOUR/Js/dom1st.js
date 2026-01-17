@@ -1,59 +1,35 @@
-// getElementByTagName
-// let a1 = document.getElementsByTagName('h1')
-// // console.log(a1)
-// for(let ar of a1){
-//     // console.log(ar.innerText)
-// }
+let a1 = document.getElementsByTagName('h1')
+// console.log(a1)
 
-// let a45 = document.getElementsByTagName('li')
-// // console.log(a45)
-// for(let aq of a45){
-//     // console.log(aq.innerText)
-// }
-
-
-// let a20 = document.getElementsByClassName('p10')
-// for(let az of a20){
-//     // console.log(az.style.fontSize = '3rem')
-// }
-
-let a21 = document.getElementsByClassName('p10')
-for(let auo of a21){
-    // console.log(auo.style.color = 'black')
+let a2 = document.getElementsByTagName('li')
+for(let li of a2){
+    // console.log(li.innerText)
 }
 
+let a3 = document.getElementsByTagName('h1')
+for(let li1 of a3){
+    // console.log(li1.innerText)
+}
+//-----------------------------------------------
 
-let a22 = document.getElementsByClassName('p10')
-for(let apo of a22){
-    // console.log(apo.style.backgroundColor = 'green')
+
+let a4 = document.getElementById('id22')
+// console.log(a4.innerHTML = 'BuriGonga')
+
+let a5 = document.getElementsByClassName('cl22')
+// console.log(a5)
+for(let a6 of a5){
+    // console.log(a6.innerText)
 }
 
-let a23 = document.getElementsByClassName('p10')
-for(let apo of a23){
-    // console.log(apo.style.textAlign = 'center')
+let a7 = document.getElementsByClassName('cl22')
+for(let a8 of a7){
+    a8.style.backgroundColor = 'red'
+    a8.style.color = 'white' 
+    a8.style.padding = '1rem'
+    a8.style.fontSize = '1.5rem'
+    // console.log(a8.innerText)
+
 }
-
-
-
-// // getElementByID
-let ros = document.getElementById('ros').style.textAlign= 'center'
-// console.log(ros)
-
-
-
-let eos = document.querySelectorAll('#file1 li')
-// console.log(eos)
-for(let ok of eos){
-    console.log(ok.style.backgroundColor = 'red')
-}
-
-
-let gok = document.querySelector('#file1 li')
-console.log(gok.innerText)
-
-let ass = document.querySelectorAll('#file1 li')
-for(let yuu of ass){
-    console.log(yuu.innerText)
-}
-
+//------------------------------------------------
 
